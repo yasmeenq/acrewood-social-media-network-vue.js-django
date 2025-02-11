@@ -7,7 +7,7 @@ import App from './App.vue'
 import router from './router'  
 
 import axios from 'axios' //added 
-import './assets/main.css' //added 
+
 
 axios.defaults.baseURL = 'http://127.0.0.1:8000' //django url
 

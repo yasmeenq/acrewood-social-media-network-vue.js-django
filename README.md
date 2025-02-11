@@ -20,7 +20,8 @@
     2. install Tailwind: 
         (follow documentations for vue + vite on tailwind website )
         https://v3.tailwindcss.com/docs/guides/vite#vue
+    3. download Vue extension 
 
     
-
+icons are from heroicon.com
 
