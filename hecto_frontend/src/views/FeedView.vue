@@ -6,7 +6,7 @@
             <div class="p-4 bg-white border border-gray-200 text-center rounded-lg">
                 <div
                     class="w-30 h-30 mb-6 flex justify-center items-center border border-gray-300 overflow-hidden mx-auto">
-                    <img src="../assets/pooh_baeb7dc6.jpeg" class="w-full h-full object-cover" />
+                    <img src="../assets/images/pooh_baeb7dc6.jpeg" class="w-full h-full object-cover" />
                 </div>
 
                 <p><strong>Winnie The Pooh</strong></p>
@@ -43,14 +43,14 @@
                 <!-- post header -->
                 <div class="mb-6 flex items-center justify-between">
                     <div class="flex items-center space-x-6">
-                        <img src="../assets/pooh_baeb7dc6.jpeg"
+                        <img src="../assets/images/pooh_baeb7dc6.jpeg"
                             class="w-12 h-12 rounded-full  border border-gray-300" />
                         <p><strong>Winnie The Pooh</strong></p>
                     </div>
                     <p class="text-gray-600">18 minutes ago</p>
                 </div>
                 <!-- post image -->
-                <img src="../assets/academia_(4).jpg" class="w-full h-18 rounded-lg">
+                <img src="../assets/images/academia_(4).jpg" class="w-full h-18 rounded-lg">
 
 
 
@@ -101,7 +101,7 @@
                 <!-- post header -->
                 <div class="mb-6 flex items-center justify-between">
                     <div class="flex items-center space-x-6">
-                        <img src="../assets/pooh_baeb7dc6.jpeg"
+                        <img src="../assets/images/pooh_baeb7dc6.jpeg"
                             class="w-12 h-12 rounded-full  border border-gray-300" />
                         <p><strong>Winnie The Pooh</strong></p>
                     </div>
@@ -165,7 +165,7 @@
                 <div class="space-y-4">
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-2">
-                            <img src="../assets/tigger.jpeg"
+                            <img src="../assets/images/tigger.jpeg"
                             class="w-12 h-12 rounded-full  border border-gray-300" />
                             <p class="text-xs"><strong>Tigger</strong></p>
                         </div>
@@ -175,7 +175,7 @@
 
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-2">
-                            <img src="../assets/Piglet.webp"
+                            <img src="../assets/images/Piglet.webp"
                             class="w-12 h-12 rounded-full  border border-gray-300" />
                             <p class="text-xs"><strong>Piglet</strong></p>
                         </div>
@@ -185,7 +185,7 @@
 
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-2">
-                            <img src="../assets/Eeyore.jpeg"
+                            <img src="../assets/images/Eeyore.jpeg"
                             class="w-12 h-12 rounded-full  border border-gray-300" />
                             <p class="text-xs"><strong>Eeyore</strong></p>
                         </div>
