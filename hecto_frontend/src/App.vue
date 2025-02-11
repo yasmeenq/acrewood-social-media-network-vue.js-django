@@ -40,7 +40,7 @@
 
                 <div class="menu-right">
                     <a href="#">
-                        <img src="./assets/pooh_baeb7dc6.jpeg" class="w-12 h-12 rounded-full object-cover border border-gray-300" />
+                        <img src="./assets/pooh_baeb7dc6.jpeg" class="w-12 h-12 rounded-full  border border-gray-300" />
                     </a>
                 </div>
             </div>
