@@ -10,7 +10,7 @@
             <div class="flex items-center justify-between">
                 <div class="menu-left">
                     <RouterLink to="feed" class="text-l">
-                        Hecto
+                        AcreWoods
                     </RouterLink>
                 </div>
 
