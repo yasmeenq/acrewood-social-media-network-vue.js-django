@@ -1,7 +1,3 @@
-
-
-
-
 <template>
     <!-- the header menu  -->
     <nav class="py-2 px-8 border-b border-gray-200">
