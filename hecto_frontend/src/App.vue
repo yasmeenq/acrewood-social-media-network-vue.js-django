@@ -9,7 +9,9 @@
         <div class="max-w-7xl mx-auto">
             <div class="flex items-center justify-between">
                 <div class="menu-left">
-                    <a href="#" class="text-l">Hecto</a>
+                    <RouterLink to="feed" class="text-l">
+                        Hecto
+                    </RouterLink>
                 </div>
 
                 <div class="menu-center flex space-x-12">
