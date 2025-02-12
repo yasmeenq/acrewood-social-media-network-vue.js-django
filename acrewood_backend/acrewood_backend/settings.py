@@ -18,10 +18,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #added
-    "rest_framework",
-    "rest_framework_simplejwt",
-    "corsheaders"
+    'rest_framework',
+    'rest_framework_simplejwt',
+    'corsheaders',
+
+    "account.apps.AccountConfig"
 ]
+
+#added
+AUTH_USER_MODEL = 'account.User'
 
 #added
 from datetime import timedelta 
@@ -30,6 +35,7 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=180), #The refresh token remains valid for 180 days. Once it expires, the user must log in again.
     'ROTATE_REFRESH_TOKEN': False, # If this were True, a new refresh token would be issued each time the user refreshes the access token.
 }
+
 #added 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -37,17 +43,19 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.IsAuthenticated',
-    )
+    ),
+    
 }
 #added
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
 ]
+CORS_ALLOW_CREDENTIALS = True 
 #added
 CSRF_TRUSTED_ORIGINS = [
     "http://127.0.0.1:5173",
 ]
-
+CORS_ALLOW_ALL_ORIGINS = True 
 
 
 MIDDLEWARE = [
@@ -55,6 +63,8 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     
     'corsheaders.middleware.CorsMiddleware', #added
+    'django.middleware.csrf.CsrfViewMiddleware', #added
+
 
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',

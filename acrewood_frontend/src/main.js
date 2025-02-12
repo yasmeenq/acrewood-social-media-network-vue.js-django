@@ -9,7 +9,7 @@ import router from './router'
 import axios from 'axios' //added 
 
 
-axios.defaults.baseURL = 'http://127.0.0.1:8000' //django url
+axios.defaults.baseURL = 'http://127.0.0.1:8000'  //django url
 
 const app = createApp(App)
 

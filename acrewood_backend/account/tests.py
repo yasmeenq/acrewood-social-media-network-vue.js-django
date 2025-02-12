@@ -1,3 +1,8 @@
 from django.test import TestCase
 
-# Create your tests here.
+
+
+from account.models import User 
+users = User.objects.all()
+users
+#<QuerySet []>
