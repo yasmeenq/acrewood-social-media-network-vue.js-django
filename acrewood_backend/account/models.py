@@ -3,6 +3,9 @@ import uuid   #unique id
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, UserManager
 from django.utils import timezone
 
+# AbstractBaseUser → Provides basic authentication functionality (password hashing, authentication methods).
+# PermissionsMixin → is_superuser → Determines if the user has all permissions. groups → Allows grouping users with different roles.
+# UserManager → Provides base functionality for creating users.
 
 class CustomUserManager(UserManager):
     def _create_user(self, name, email, password, **extra_fields):
@@ -45,3 +48,6 @@ class User(AbstractBaseUser, PermissionsMixin):
     USERNAME_FIELD = 'email'
     EMAIL_FIELD = 'email'
     REQUIRED_FIELDS = []
+
+
+    #(null=True, blank=False)  # Allows NULL in DB, but required in forms
