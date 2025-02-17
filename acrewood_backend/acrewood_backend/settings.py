@@ -23,7 +23,8 @@ INSTALLED_APPS = [
     'corsheaders',
 
     "account.apps.AccountConfig",
-    "post",
+    "post.apps.PostConfig",
+    "search",
 ]
 
 #added
