@@ -1,32 +1,14 @@
 <template>
     <div class="max-w-7xl mx-auto grid grid-cols-4 gap-4">
 
-        <!-- left -->
-        <div class="main-left col-span-1">
-            <div class="p-4 bg-white border border-gray-200 text-center rounded-lg">
-                <div
-                    class="w-30 h-30 mb-6 flex justify-center items-center border border-gray-300 overflow-hidden mx-auto">
-                    <img src="../assets/images/pooh_baeb7dc6.jpeg" class="w-full h-full object-cover" />
-                </div>
-
-                <p><strong>Winnie The Pooh</strong></p>
-
-                <div class="mt-6 flex space-x-8 justify-around">
-                    <p class="text-xs text-gray-500">180 friends</p>
-                    <p class="text-xs text-gray-500">11 posts</p>
-                </div>
-            </div>
-        </div>
-
-
         <!-- center -->
-        <div class="main-center col-span-2 space-y-4">
+        <div class="main-center col-span-3 space-y-4 mx-20">
             <!-- posting box area  -->
             <div class="p-4 pb-0 bg-white border border-gray-200 rounded-lg">
                 <form v-on:submit.prevent="submitForm" method="post">
                     <!-- post box -->
-                    <div class="p4">
-                        <textarea v-model="body" class="p-4 w-full bg-gray-100 rounded-lg" placeholder="What's on your mind? "></textarea>
+                    <div class="p-4 pb-0">
+                        <textarea v-model="body" class="p-8 w-full bg-gray-100 rounded-lg" placeholder="What's on your mind? "></textarea>
                     </div>
                     <!-- post buttons  -->
                     <div class="py-4 px-8 border-t border-gray-100 flex justify-between">
