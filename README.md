@@ -51,3 +51,21 @@ note: icons are from heroicon.com
 front end : 
 store > user.js
 add script to signup page to pass info to backend 
+
+
+#### feed 
+![image](https://github.com/user-attachments/assets/71029a92-8bad-4909-ac60-fbab7276db70)
+<br>
+![image](https://github.com/user-attachments/assets/518a4860-fe8e-4037-84e3-3113f4443192)
+#### messages
+![image](https://github.com/user-attachments/assets/4271d0f1-9fe1-476e-9b19-a8b538c6cbb4)
+#### search
+![image](https://github.com/user-attachments/assets/dd38cc41-0379-4a01-bfe1-6d31031dc5c0)
+
+#### signup
+![image](https://github.com/user-attachments/assets/2107f4a4-689c-40fe-9d60-52d0fdc46ca6)
+
+#### login
+![image](https://github.com/user-attachments/assets/f0aad896-6f34-45b5-a89d-ab80d8e80774)
+
+
